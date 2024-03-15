@@ -41,13 +41,8 @@ body {
     width: 100%;
 }
 
-/* 10 */
-.section--flx {
-    display: flex;
-}
-
 /* 20 */
-.section--flx .article {
+.section--flt .article {
     margin-right: 3px;
 }
 
