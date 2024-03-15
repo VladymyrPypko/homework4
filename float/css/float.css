@@ -41,6 +41,16 @@ body {
     width: 100%;
 }
 
+.nav-wrap {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* 20 */
 .section--flt .article {
     margin-right: 3px;
