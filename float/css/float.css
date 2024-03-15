@@ -41,10 +41,12 @@ body {
     width: 100%;
 }
 
+/* 10 */
 .nav-wrap {
     float: right;
 }
 
+/* 11 */
 .clearfix::after {
     content: "";
     clear: both;
@@ -73,6 +75,7 @@ body {
 .article__item {
     color: #1d1b1b;
     line-height: 18.75px;
+    margin-top: 5px;
 }
 
 /* 10 */
