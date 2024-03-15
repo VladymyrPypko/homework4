@@ -1,4 +1,9 @@
 /* 1 */
+html {
+    font-size: 16px;
+}
+
+/* 1 */
 body {
     background: #b4b4b4 url(../../flex/images/pink-flowers.webp) no-repeat center/cover;
     background-attachment: fixed;
