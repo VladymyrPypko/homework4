@@ -1,0 +1,175 @@
+/* 1 */
+body {
+    background: #b4b4b4 url(../images/pink-flowers.webp) no-repeat center/cover;
+    background-attachment: fixed;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* 10 */
+.wrapper {
+    width: 88%;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 0 3%;
+}
+
+/* 10 */
+.header__heading {
+    padding-top: 96px;
+    margin-bottom: 46px;
+    font-size: 2rem;
+    color: #a11414
+}
+
+/* 10 */
+.header__heading--spec {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* 10 */
+.header__img-wrap {
+    padding: 14px 1.43%;
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-bottom: 57px;
+}
+
+/* 11 */
+.header__img-wrap img {
+    width: 100%;
+}
+
+/* 10 */
+.section--flx {
+    display: flex;
+}
+
+/* 20 */
+.section--flx .article {
+    margin-right: 3px;
+}
+
+/* 10 */
+.article__heading {
+    color: #a11414;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* 10 */
+.article__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* 20 */
+.article__container:last-child {
+    margin-bottom: 31px;
+}
+
+/* 10 */
+.article__item {
+    color: #1d1b1b;
+    line-height: 18.75px;
+}
+
+/* 10 */
+.article__item--with-indent {
+    text-indent: 40px;
+}
+
+.article__item--with-top-margin {
+    margin-top: 20px;
+}
+
+/* 10 */
+.article__text--spec {
+    text-transform: uppercase;
+}
+
+/* 10 */
+.article__text--mod {
+    color: #a11414;
+}
+
+/* 10 */
+.article__text--add {
+    text-decoration: line-through;
+}
+
+/* 10 */
+/*
+box-sizing прописал специально, чтобы навигация не сплющивалась при сужении окна браузера
+хотел задать min/max-width, но не вижу необходимости из-за маленького размера блока
+*/
+.nav-wrap {
+    box-sizing: content-box;
+    width: 10%;
+    height: fit-content;
+    border-radius: 2px 15px;
+    background: #d7d7d7;
+    padding: 29px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 0;
+}
+
+/* 10 */
+.nav__heading {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* 10 */
+.nav__link {
+    color: #000;
+    text-decoration: none;
+}
+
+/* 20 */
+.nav__link:hover {
+    font-weight: 700;
+    color: #a11414;
+    text-decoration: underline;
+}
+
+/* 10 */
+.footer {
+    width: 85%;
+    margin-top: 4px;
+    padding-bottom: 18px;
+}
+
+/* 10 */
+.footer__line {
+    background: url(../images/back.gif) no-repeat 0 50%;
+    background-size: 100%;
+}
+
+/*
+да-да, у меня дергался глаз от того, что текст налазит на бэкграунд при сужении окна,
+поэтому я полез гуглить, что можно сделать, чтобы исправить эту проблему по тому примеру,
+который ты показывать с <picture> в html
+*/
+@media screen and (max-width: 680px) {
+    .footer__line {
+        background: unset;
+    }
+}
+
+/* 10 */
+.footer__item {
+    text-align: center;
+    padding: 7px 0 6px;
+    color: #403636
+}
+
+/* 10 */
+.footer__item--spec {
+    font-weight: 700;
+}
