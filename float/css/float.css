@@ -1,6 +1,6 @@
 /* 1 */
 body {
-    background: #b4b4b4 url(../images/pink-flowers.webp) no-repeat center/cover;
+    background: #b4b4b4 url(../../flex/images/pink-flowers.webp) no-repeat center/cover;
     background-attachment: fixed;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 400;
@@ -147,7 +147,7 @@ box-sizing прописал специально, чтобы навигация 
 
 /* 10 */
 .footer__line {
-    background: url(../images/back.gif) no-repeat 0 50%;
+    background: url(../../flex/images/back.gif) no-repeat 0 50%;
     background-size: 100%;
 }
 
